@@ -1,13 +1,12 @@
 Describe: userInput();
 
-
-Test: "It should test wether or not the user has in fact inputted a number"
+<!-- Test: "It should test wether or not the user has in fact inputted a number"
 Code: userInput();
-Expected Output: toNumber;
+Expected Output: toNumber; -->
 
-Test: "It should return an array of numbers from 0 to the user's inputted number"
+<!-- Test: "It should return an array of the users inputted numbers"
 Code: userInput();
-Expected Output: [0];
+Expected Output: [numberInput]; -->
 
 Description: beepBoop();
 
