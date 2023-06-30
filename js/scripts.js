@@ -5,12 +5,14 @@ function userInput(numberInput) {
     return false;
   } else {
     const toArray = numberInput.split(",");
-    for (let i = 0; i < toArray.length; i++) {
-      if (toArray[i] === "1") {
-        toArray[i] = "Beep";
+    const replacedArray = toArray.map((element) => {
+      if (element.includes("1")) {
+        return "Beep";
+      } else {
+        return element;
       }
-    }
-    return toArray;
+    });
+    return replacedArray;
   }
 }
 
