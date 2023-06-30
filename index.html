@@ -5,9 +5,20 @@
   <script src="js/scripts.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Mr. Roboger's Neighborhood</title>
 </head>
 <body>
-  
+  <div>
+  <h2>Mr. Roboger's Neighborhood</h2>
+  <form id="neighborhood-input">
+    <p>Enter a number to receive Mr. Roboger's secret message: </p>
+    <textarea id="user-number" name="user-number" class="form-control"></textarea>
+    <button type="submit" class="btn">Submit</button>
+  </form>
+  </div>
+  <br />
+  <div id="return-statement">
+    <p>Here is your special message: <span id="altered-number"></span></p>
+  </div>
 </body>
 </html>
