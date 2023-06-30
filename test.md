@@ -8,11 +8,10 @@ Expected Output: toNumber; -->
 Code: userInput();
 Expected Output: [numberInput]; -->
 
-Description: beepBoop();
 
-Test: "It should replace numbers that contain a "1" with "Beep"
-Code: beepBoop(1);
-Expected Output: [0, "Beep"];
+Test: "It should replace the number "1" with "Beep"
+Code: userInput("1");
+Expected Output: Array ["Beep"];
 
 Test:
 Code:
