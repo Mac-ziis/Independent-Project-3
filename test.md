@@ -13,10 +13,14 @@ Expected Output: [numberInput]; -->
 Code: userInput("1");
 Expected Output: Array ["Beep"]; -->
 
-Test: "It should replace any number that contains a "1" with "Beep"
+<!-- Test: "It should replace any number that contains a "1" with "Beep"
 Code: userInput("100");
-Expected Output: Array ["Beep"];
+Expected Output: Array ["Beep"]; -->
 
-Test:
-Code:
-Expected Output:
+Test: "It should replace the number 2 with "Boop"
+Code: userInput("2");
+Expected Output: Array ["Boop"];
+
+Test: "it should replace any number that contains "2" with "Boop"
+Code: userInput["200"];
+Expected Output: Array ["Boop"];
