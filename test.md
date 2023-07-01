@@ -39,3 +39,7 @@ Expected Output: [0, "Beep", "Boop", "Won't you be my neighbor?", 4, 5]
 Test: "it will include hierarchy so that the correct response will be displayed for the last digit in a number"
 Code: userInput("13")
 Expected Output: [0, "Beep", "Boop", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep", "Beep", "Boop", "Won't you be my neighbor?"]
+
+Test: "it will go beyond 13 and return the correct response for all numbers that start or end with the specified digits"
+Code: userInput("20");
+Expected Output: [... Beep, Beep, Beep, Beep, Beep. Beep, Boop]
