@@ -14,7 +14,7 @@
 
 ## Description
 
-_This application will take an inputted number from the user and return a special message from Mr. Roboger. Numbers inputted will produce an array from 0 to the users inputted number, if this number includes occurences of "1" "2" or "3" the function will alter these numbers in the return. Additionally if the users number goes into the double digits the application will alter all numbers beginning or ending with the provided cipher numbers eithin a hierarchy. For example: if a double digit number starts with "1" you will get the response for "1" but if the ending digit is a "2" then you will get the message cipher for two and respectively for "3" and so on._
+_This application will take an inputted number from the user and return a special message from Mr. Roboger. Numbers inputted will produce an array from 0 to the users inputted number, if this number includes occurences of "1" "2" or "3" the function will alter these numbers in the return. Additionally if the users number goes into the double digits the application will alter all numbers beginning or ending with the provided cipher numbers within a hierarchy. For example: if a double digit number starts with "1" you will get the response for "1" but if the ending digit is a "2" then you will get the message cipher for two and respectively for "3" and so on. Tests for the business logic function are included in the test.md file._
 
 ## Setup/Installation Requirements
 

@@ -13,10 +13,6 @@ header {
   z-index: 1;
 }
 
-.em em-house_with_garden {
-  margin-bottom: 10px;
-}
-
 #title {
   color: #FFF685;
   text-align: center;
@@ -35,11 +31,6 @@ body {
   border-bottom: 1px solid #00ebc7;
   color: #0049B7;
   text-align: center;
-}
-
-.wrapper {
-  background-image: url(img/neighborhood-2.jpg);
-  background-size: cover;
 }
 
 #user-number {
@@ -71,7 +62,7 @@ body {
 }
 
 #altered-number {
-  color: #F75990;
+  color: #FF1d58;
   font-size: 15px;
 }
 
