@@ -27,7 +27,7 @@ function handleFormSubmission(event) {
   const number = document.getElementById("user-number").value;
   const userAddition = userInput(number);
   const resultElement = document.getElementById("return-statement");
-  resultElement.removeAttribute("hidden"); 
+  resultElement.classList.remove("hidden"); 
   const alteredNumberElement = document.getElementById("altered-number");
   alteredNumberElement.innerText = userAddition.join(", ");
 }

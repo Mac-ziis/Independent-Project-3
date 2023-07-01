@@ -1,4 +1,4 @@
-/* header {
+header {
   position: fixed;
   top: 0;
   left: 0;
@@ -28,14 +28,14 @@ body {
   background-color: #f84646;
   padding: 10px;
   border-bottom: 1px solid #00ebc7;
-  margin-bottom: 10px;
 }
 
 #return-statement {
   padding: 10px;
-  margin-top: 50px;
+  background-color: #e6c927;
+  margin-bottom: 0;
 }
 
 .hidden {
   display: none;
-} */
+}
