@@ -1,35 +1,23 @@
+// Business Logic
+
 function userInput(numberInput) {
   const toNumber = parseInt(numberInput);
 
   if (isNaN(toNumber)) {
     return false;
   } else {
-    const oneArray = numberInput.split(",");
-    const replacedArray = oneArray.map((element) => {
+    const resultArray = [];
+    for (let i = 0; i <= toNumber; i++) {
+      let element = i.toString();
       if (element.includes("1")) {
-        return "Beep";
-      } else {
-        return element;
+        element = "Beep";
+      } else if (element.includes("2")) {
+        element = "Boop";
+      } else if (element.includes("3")) {
+        element = "Won't you be my neighbor?";
       }
-    });
-
-    const twoArray = replacedArray.map((element) => {
-      if (element.includes("2")) {
-        return "Boop";
-      } else {
-        return element;
-      }
-    });
-
-    const neighborArray = twoArray.map((element) => {
-      if (element.includes("3")) {
-        return "Won't you be my neighbor?"
-      } else {
-        return element;
-      }
-    })
-
-    return neighborArray;
+      resultArray.push(element);
+    }
+    return resultArray;
   }
 }
-
