@@ -27,7 +27,6 @@ header {
 body {
   margin: 0;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .landing {
@@ -38,8 +37,13 @@ body {
   text-align: center;
 }
 
+.wrapper {
+  background-image: url(img/neighborhood-2.jpg);
+  background-size: cover;
+}
+
 #user-number {
-  width: 40%
+  width: 40%;
   height: 10px;
   font-size: 10px;
   border: 1px double black;
@@ -63,13 +67,16 @@ body {
 #return-statement {
   padding: 10px;
   background-color: #FFF685;
-  margin-bottom: 0;
   color: #0049B7;
 }
 
 #altered-number {
   color: #F75990;
   font-size: 15px;
+}
+
+#return-box {
+  
 }
 
 .hidden {
