@@ -8,7 +8,6 @@ Expected Output: toNumber; -->
 Code: userInput();
 Expected Output: [numberInput]; -->
 
-
 <!-- Test: "It should replace the number "1" with "Beep"
 Code: userInput("1");
 Expected Output: Array ["Beep"]; -->
@@ -33,9 +32,9 @@ Test: "it should replace any number containing "3" with "Won't you be my neighbo
 Code: userInput("300");
 Expected Output: Array ["Won't you be my neighbor?"]; -->
 
-Test: "it will display a list of values starting with 0 to the users inputted number, with the numbers 1 2 and 3 substituted for the correct phrase"
+<!-- Test: "it will display a list of values starting with 0 to the users inputted number, with the numbers 1 2 and 3 substituted for the correct phrase"
 Code: userInput("5");
-Expected Output: [0, "Beep", "Boop", "Won't you be my neighbor?", 4, 5]
+Expected Output: [0, "Beep", "Boop", "Won't you be my neighbor?", 4, 5] -->
 
 Test: "it will include hierarchy so that the correct response will be displayed for the last digit in a number"
 Code: userInput("13")

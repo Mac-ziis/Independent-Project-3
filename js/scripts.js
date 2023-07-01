@@ -9,11 +9,11 @@ function userInput(numberInput) {
     const resultArray = [];
     for (let i = 0; i <= toNumber; i++) {
       let element = i.toString();
-      if (element.includes("1")) {
+      if (element.endsWith("1")) {
         element = "Beep";
-      } else if (element.includes("2")) {
+      } else if (element.endsWith("2")) {
         element = "Boop";
-      } else if (element.includes("3")) {
+      } else if (element.endsWith("3")) {
         element = "Won't you be my neighbor?";
       }
       resultArray.push(element);
