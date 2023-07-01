@@ -17,10 +17,18 @@ Expected Output: Array ["Beep"]; -->
 Code: userInput("100");
 Expected Output: Array ["Beep"]; -->
 
-Test: "It should replace the number 2 with "Boop"
+<!-- Test: "It should replace the number 2 with "Boop"
 Code: userInput("2");
 Expected Output: Array ["Boop"];
 
 Test: "it should replace any number that contains "2" with "Boop"
 Code: userInput["200"];
-Expected Output: Array ["Boop"];
+Expected Output: Array ["Boop"]; -->
+
+Test: "it should replace the number "3" with "Won't you be my neighbor?"
+Code: userInput("3");
+Expected Output: Array ["Won't you be my neighbor?"];
+
+Test: "it should replace any number containing "3" with "Won't you be my neighbor?"
+Code: userInput("300");
+Expected Output: Array ["Won't you be my neighbor?"];

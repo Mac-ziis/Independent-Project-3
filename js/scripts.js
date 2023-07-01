@@ -21,7 +21,15 @@ function userInput(numberInput) {
       }
     });
 
-    return twoArray;
+    const neighborArray = twoArray.map((element) => {
+      if (element.includes("3")) {
+        return "Won't you be my neighbor?"
+      } else {
+        return element;
+      }
+    })
+
+    return neighborArray;
   }
 }
 
