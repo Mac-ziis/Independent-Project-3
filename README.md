@@ -22,7 +22,7 @@ _This application will take an inputted number from the user and return a specia
 * _Once the project is cloned to your machine, navigate to the directory and open the main project directory along with all of the files included. This will require Vs Code or software with similar capabilities._
 * _Once the file/files are open in your software, in this case I am using Visual studio code, you will right click in the index.html file and open your live server in the default browser._
 * _Once the browser is open you will only need to input your number within the text field and click "Submit" for your message to appear._
-* _To receive a new response you will only need to input a new number and clisk the "Submit" button again for your new message to appear._
+* _To receive a new response you will only need to input a new number and click the "Submit" button again for your new message to appear._
 
 ## Known Bugs
 
@@ -30,7 +30,7 @@ _This application will take an inputted number from the user and return a specia
 
 ## License
 
-Copyright (c) <7/1/2023> <Mackenzie Granger>
+Copyright (c) _7/1/2023_ _Mackenzie Granger_
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
