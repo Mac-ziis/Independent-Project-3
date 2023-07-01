@@ -1,8 +1,4 @@
-.hidden {
-  display: none;
-}
-
-header {
+/* header {
   position: fixed;
   top: 0;
   left: 0;
@@ -14,6 +10,7 @@ header {
   text-align: center;
   border-bottom: 1px solid #00ebc7;
   font-style: italic;
+  z-index: 1;
 }
 
 #title {
@@ -23,11 +20,22 @@ header {
 
 body {
   margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .landing {
   background-color: #f84646;
   padding: 10px;
   border-bottom: 1px solid #00ebc7;
+  margin-bottom: 10px;
 }
 
+#return-statement {
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.hidden {
+  display: none;
+} */
